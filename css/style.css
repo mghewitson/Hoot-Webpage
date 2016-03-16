@@ -1,0 +1,38 @@
+body {
+  display: block;
+  background-color: #0066ff;
+}
+
+.image {
+  float:right;
+  margin-right: 16%;
+  width: 625px;
+  height: 500px;
+  outline-color: red;
+  outline-style: inset;
+  outline-width: thick;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  background-image: url(../img/flag.jpg);
+  width: 85%;
+}
+
+.wiki:link {
+    color: white;
+  }
+
+.wiki:visited {
+    color: red;
+}
+
+.wiki:hover {
+  color: black;
+}
+
+.wiki:active {
+  color:blue;
+}
